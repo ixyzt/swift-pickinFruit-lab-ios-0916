@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4BD0C401EC8599BCD9EE3673 /* Pods_PickinFruit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B83E8CB504C8EFC6201286EF /* Pods_PickinFruit.framework */; };
 		5D4704A71D3C6B31009B6ECC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D4704A61D3C6B31009B6ECC /* AppDelegate.swift */; };
 		5D4704A91D3C6B31009B6ECC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D4704A81D3C6B31009B6ECC /* ViewController.swift */; };
 		5D4704AC1D3C6B31009B6ECC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D4704AA1D3C6B31009B6ECC /* Main.storyboard */; };
@@ -16,7 +15,8 @@
 		5D4704BC1D3C6B32009B6ECC /* PickinFruitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D4704BB1D3C6B32009B6ECC /* PickinFruitTests.swift */; };
 		5D4704D81D3E8B8D009B6ECC /* ViewControllerSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D4704D71D3E8B8D009B6ECC /* ViewControllerSpec.swift */; };
 		5D4704DA1D3EAB0E009B6ECC /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D4704D91D3EAB0E009B6ECC /* Constants.swift */; };
-		DA4BDC339E3E287E4AFB564D /* Pods_PickinFruitTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BF2C9B18E8D098751387A54 /* Pods_PickinFruitTests.framework */; };
+		907ECAFE53F15FA5B7C40BF7 /* Pods_PickinFruit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5CEBFF80D59C72BC053FBE2 /* Pods_PickinFruit.framework */; };
+		FE312E5E010E2F57A69C5F09 /* Pods_PickinFruitTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8D69F7DCB27B554E9ED17A1 /* Pods_PickinFruitTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,9 +30,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		037AE525039747F398D9AF5A /* Pods-PickinFruitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PickinFruitTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PickinFruitTests/Pods-PickinFruitTests.release.xcconfig"; sourceTree = "<group>"; };
-		0DB1117F8A84C36DF8832886 /* Pods-PickinFruitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PickinFruitTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PickinFruitTests/Pods-PickinFruitTests.debug.xcconfig"; sourceTree = "<group>"; };
-		5BF2C9B18E8D098751387A54 /* Pods_PickinFruitTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PickinFruitTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		17363785E12CC4F16EFC4F46 /* Pods-PickinFruit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PickinFruit.release.xcconfig"; path = "Pods/Target Support Files/Pods-PickinFruit/Pods-PickinFruit.release.xcconfig"; sourceTree = "<group>"; };
+		4CB381DA221FAF5049DAFBD6 /* Pods-PickinFruitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PickinFruitTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PickinFruitTests/Pods-PickinFruitTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5D4704A31D3C6B31009B6ECC /* PickinFruit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PickinFruit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D4704A61D3C6B31009B6ECC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5D4704A81D3C6B31009B6ECC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -46,9 +45,10 @@
 		5D4704D71D3E8B8D009B6ECC /* ViewControllerSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerSpec.swift; sourceTree = "<group>"; };
 		5D4704D91D3EAB0E009B6ECC /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		5D4BF0E11DAC42C800275419 /* PickinFruitTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PickinFruitTests-Bridging-Header.h"; sourceTree = "<group>"; };
-		A968639FE8B0C4EAAFDDF73A /* Pods-PickinFruit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PickinFruit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PickinFruit/Pods-PickinFruit.debug.xcconfig"; sourceTree = "<group>"; };
-		B83E8CB504C8EFC6201286EF /* Pods_PickinFruit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PickinFruit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BFB1DD4E615D9FDA0A98F122 /* Pods-PickinFruit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PickinFruit.release.xcconfig"; path = "Pods/Target Support Files/Pods-PickinFruit/Pods-PickinFruit.release.xcconfig"; sourceTree = "<group>"; };
+		8A8044CC50AE5A48383EF28F /* Pods-PickinFruit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PickinFruit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PickinFruit/Pods-PickinFruit.debug.xcconfig"; sourceTree = "<group>"; };
+		A5CEBFF80D59C72BC053FBE2 /* Pods_PickinFruit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PickinFruit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1539D418016C82D19EFCE27 /* Pods-PickinFruitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PickinFruitTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PickinFruitTests/Pods-PickinFruitTests.release.xcconfig"; sourceTree = "<group>"; };
+		E8D69F7DCB27B554E9ED17A1 /* Pods_PickinFruitTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PickinFruitTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4BD0C401EC8599BCD9EE3673 /* Pods_PickinFruit.framework in Frameworks */,
+				907ECAFE53F15FA5B7C40BF7 /* Pods_PickinFruit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,32 +64,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA4BDC339E3E287E4AFB564D /* Pods_PickinFruitTests.framework in Frameworks */,
+				FE312E5E010E2F57A69C5F09 /* Pods_PickinFruitTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		15F20930E174B89D910A43DC /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				A968639FE8B0C4EAAFDDF73A /* Pods-PickinFruit.debug.xcconfig */,
-				BFB1DD4E615D9FDA0A98F122 /* Pods-PickinFruit.release.xcconfig */,
-				0DB1117F8A84C36DF8832886 /* Pods-PickinFruitTests.debug.xcconfig */,
-				037AE525039747F398D9AF5A /* Pods-PickinFruitTests.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 		5D47049A1D3C6B31009B6ECC = {
 			isa = PBXGroup;
 			children = (
 				5D4704A51D3C6B31009B6ECC /* PickinFruit */,
 				5D4704BA1D3C6B32009B6ECC /* PickinFruitTests */,
 				5D4704A41D3C6B31009B6ECC /* Products */,
-				15F20930E174B89D910A43DC /* Pods */,
-				BE9844031CD832D8A9432F93 /* Frameworks */,
+				A992B5417B3058F0387CB7B5 /* Pods */,
+				F19547CC9927AEC7177FD80A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -135,11 +124,22 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		BE9844031CD832D8A9432F93 /* Frameworks */ = {
+		A992B5417B3058F0387CB7B5 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				B83E8CB504C8EFC6201286EF /* Pods_PickinFruit.framework */,
-				5BF2C9B18E8D098751387A54 /* Pods_PickinFruitTests.framework */,
+				8A8044CC50AE5A48383EF28F /* Pods-PickinFruit.debug.xcconfig */,
+				17363785E12CC4F16EFC4F46 /* Pods-PickinFruit.release.xcconfig */,
+				4CB381DA221FAF5049DAFBD6 /* Pods-PickinFruitTests.debug.xcconfig */,
+				E1539D418016C82D19EFCE27 /* Pods-PickinFruitTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F19547CC9927AEC7177FD80A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A5CEBFF80D59C72BC053FBE2 /* Pods_PickinFruit.framework */,
+				E8D69F7DCB27B554E9ED17A1 /* Pods_PickinFruitTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -151,12 +151,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5D4704CB1D3C6B32009B6ECC /* Build configuration list for PBXNativeTarget "PickinFruit" */;
 			buildPhases = (
-				0FC2FF9990ABBF7F49B28D92 /* [CP] Check Pods Manifest.lock */,
+				B2BF8596B1FC0458A64B6EEC /* [CP] Check Pods Manifest.lock */,
 				5D47049F1D3C6B31009B6ECC /* Sources */,
 				5D4704A01D3C6B31009B6ECC /* Frameworks */,
 				5D4704A11D3C6B31009B6ECC /* Resources */,
-				1A818A02B4B38963480C77F5 /* [CP] Embed Pods Frameworks */,
-				EB71D54598096B30DBF2AF3E /* [CP] Copy Pods Resources */,
+				1BA9DEE552852E2E0D11623A /* [CP] Embed Pods Frameworks */,
+				E0753C39849C64DDE6EFD769 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -171,12 +171,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5D4704CE1D3C6B32009B6ECC /* Build configuration list for PBXNativeTarget "PickinFruitTests" */;
 			buildPhases = (
-				4C83BCEAC836CF76EB55DDEF /* [CP] Check Pods Manifest.lock */,
+				DA9B90DEDA090A6319A5690B /* [CP] Check Pods Manifest.lock */,
 				5D4704B31D3C6B32009B6ECC /* Sources */,
 				5D4704B41D3C6B32009B6ECC /* Frameworks */,
 				5D4704B51D3C6B32009B6ECC /* Resources */,
-				BAE6901F84440A813D588D22 /* [CP] Embed Pods Frameworks */,
-				3435618FD3380AB607F8A1FF /* [CP] Copy Pods Resources */,
+				1C4A41BCADB0B54C410A49CE /* [CP] Embed Pods Frameworks */,
+				B2F17B392EC797B18E31ED34 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -200,7 +200,6 @@
 				TargetAttributes = {
 					5D4704A21D3C6B31009B6ECC = {
 						CreatedOnToolsVersion = 7.3.1;
-						DevelopmentTeam = KXY9EDFTF5;
 						LastSwiftMigration = 0800;
 					};
 					5D4704B61D3C6B32009B6ECC = {
@@ -250,22 +249,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0FC2FF9990ABBF7F49B28D92 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		1A818A02B4B38963480C77F5 /* [CP] Embed Pods Frameworks */ = {
+		1BA9DEE552852E2E0D11623A /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -280,37 +264,7 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PickinFruit/Pods-PickinFruit-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		3435618FD3380AB607F8A1FF /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PickinFruitTests/Pods-PickinFruitTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		4C83BCEAC836CF76EB55DDEF /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		BAE6901F84440A813D588D22 /* [CP] Embed Pods Frameworks */ = {
+		1C4A41BCADB0B54C410A49CE /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -325,7 +279,52 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PickinFruitTests/Pods-PickinFruitTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		EB71D54598096B30DBF2AF3E /* [CP] Copy Pods Resources */ = {
+		B2BF8596B1FC0458A64B6EEC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B2F17B392EC797B18E31ED34 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PickinFruitTests/Pods-PickinFruitTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DA9B90DEDA090A6319A5690B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E0753C39849C64DDE6EFD769 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -477,11 +476,12 @@
 		};
 		5D4704CC1D3C6B32009B6ECC /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A968639FE8B0C4EAAFDDF73A /* Pods-PickinFruit.debug.xcconfig */;
+			baseConfigurationReference = 8A8044CC50AE5A48383EF28F /* Pods-PickinFruit.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = KXY9EDFTF5;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = PickinFruit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = FlatironSchool.com.PickinFruit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -491,11 +491,12 @@
 		};
 		5D4704CD1D3C6B32009B6ECC /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BFB1DD4E615D9FDA0A98F122 /* Pods-PickinFruit.release.xcconfig */;
+			baseConfigurationReference = 17363785E12CC4F16EFC4F46 /* Pods-PickinFruit.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = KXY9EDFTF5;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = PickinFruit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = FlatironSchool.com.PickinFruit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -505,7 +506,7 @@
 		};
 		5D4704CF1D3C6B32009B6ECC /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0DB1117F8A84C36DF8832886 /* Pods-PickinFruitTests.debug.xcconfig */;
+			baseConfigurationReference = 4CB381DA221FAF5049DAFBD6 /* Pods-PickinFruitTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ENABLE_MODULES = YES;
@@ -522,7 +523,7 @@
 		};
 		5D4704D01D3C6B32009B6ECC /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 037AE525039747F398D9AF5A /* Pods-PickinFruitTests.release.xcconfig */;
+			baseConfigurationReference = E1539D418016C82D19EFCE27 /* Pods-PickinFruitTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ENABLE_MODULES = YES;
